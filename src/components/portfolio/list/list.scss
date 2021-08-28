@@ -1,0 +1,16 @@
+@import "../../../global.scss";
+
+li {
+  font-size: 14px;
+  padding: 10px;
+  margin: 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  @include mobile {
+    margin: 0px;
+  }
+  &.active {
+    background-color: $mainColor;
+    color: #fff;
+  }
+}
